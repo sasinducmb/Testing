@@ -1,0 +1,141 @@
+.text-home{
+display: flex;
+justify-content: center;
+}
+
+.home-img{
+    overflow: hidden;
+}
+.text-style{
+letter-spacing: 3px;
+}
+.product-style {
+  width: 159px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  color:black;
+  background-color:#9AC95C;
+}
+
+.custom-box {
+  width: 300px;
+  height: 417px;
+}
+
+.card-inner {
+  width: 300px;
+  height: 417px;
+  position: relative;
+  border-radius: 4px;
+  /* background-color: white; */
+}
+.custom-box:hover .add-cart {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.card-outer {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+}
+
+.pic {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.add-cart {
+  height: 41px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 22%;
+  left: 0%;
+  z-index: 2;
+  visibility: hidden;
+}
+.text-card{
+    position: absolute;
+    bottom: 7%;
+    left: 0%;
+}
+
+.box-shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.black-box {
+  width: 100%;
+  background-color: #9AC95C;
+  position: relative;
+}
+
+.img-set{
+   position: relative;
+}
+.galary-img{
+   position: relative;
+}
+
+
+.btn-galary{
+    width: 271px;
+    height: 56px;
+    border-radius: 4px;
+    border: 0;
+    font-size: 20px;
+    padding: 12px 48px 16px 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #9AC95C;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    left: 38%;
+}
+
+/* arrowkeys style  */
+.arrow-keys {
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: white;
+}
+.arrow-keys:hover {
+  background-color: #9AC95C ;
+  color:whitesmoke;
+}
+
+.text-inner{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.custom-box1 {
+  width: 300px;
+  height: 300px;
+}
+.card-inner1 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 4px;
+  /* background-color: white; */
+}
+
+.footer {
+  height: auto;
+  /* width: auto; */
+  background-color: black;
+  color: white;
+}
